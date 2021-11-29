@@ -1,31 +1,24 @@
-Monese iOS home assignment template
+Monese iOS home assignment completed
 ==========
 
-## The purpose of this test
+## Architecture
+Followed the same VIPER architecture as given
 
-The purpose of this test is to see what is your approach to problem solving and how you conduct it.
-The requirements for this test are simple so no need for elaborate solutions.
-Some parts of the application are already implemented for you but feel free to improve them how you see fit.
-Use `make` to generate the project file.
+### Business Requirements Covered
 
-### Business Requirements
 
-Implement SpaceX launches informative application:
+1. The application uses Open Source REST API that can be found here: https://github.com/r-spacex/SpaceX-API
 
-The application should use Open Source REST API that can be found here: https://github.com/r-spacex/SpaceX-API
+2. For each launch in the list, next attributes is displayed: mission name and launch date.
 
-As a user, I want to see the list of launches, when I open the application.
-- For each launch in the list, next attributes should be displayed: mission name and launch date.
+3. Have the ability to refresh the list to see new launches.
 
-As a user, I want to have the ability to refresh the list to see new launches.
+4. Parameter “success” has been used for filtering data
 
-As a user, I want to have possibility to filter the list and see only successful launches.
-- Parameter “success” should be used for filtering data
+5. On launch cell pressed, next screen with rocket detail is getting loaded
 
-As a user, when I press on the launch in the list I want to see the next screen with rocket description
-
-The application should display a loading indicator when it is fetching relevant data.
+6. The application is displaying a loading indicator when it is fetching relevant data.
 
 ### Submitting the homework
 
-Please send us the link to your private repository with the source code.
+Submiting this public repository
